@@ -53,11 +53,11 @@ export default function QuestionBox() {
         <span >Kalvium</span>
         { <button className='dark-mode-btn' onClick={change}>{screenColor ? '🤍' : '🖤'} </button>        /* lightmode and darkmode button */ }
       </div>
-      <div id='title'>QUIZZES!</div>
+      <div id='title'>QUIZZR!</div>
       <div className='question-box'>
           { <h4>Question:{statequestion+1} out of 5</h4>                                     /* Updating the question number */ }
           {<h3 id='question'>{questions[statequestion].text} </h3>                            /*getting question */ }
-          <div id='option-div' >
+          <div id='option-div'>
             {questions[statequestion].options.map((el ,index) => (                            
                                                                                               // creating buttons and getting options according to the number of given options through map method
             <button  key={index} onClick ={() => moveNextQuestion(el.isCorrect)}>{el.text}</button>

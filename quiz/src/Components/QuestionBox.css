@@ -1,6 +1,10 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0) ;
 
+
+}
+*{
+    transition: all 0.4s;
 }
 
 span{
@@ -184,27 +188,27 @@ h3{
 @media only screen and (max-width: 767px){
     span{
         position: relative;
-        right: 48px;
+        right: 20px;
         bottom: 20px;
     }
     .dark-mode-btn{
         position: relative;
-        right: 66px;
+        right: 5px;
         bottom: 12px;
     }
     #title{
         position: relative;
-        right: 10px;
-        bottom: 25px;
+        left: 45px;
+        bottom: 10px;
         width: 30vmax;
         /* border: 2px solid white;  */
     }
     .question-box{
         background-color: rgb(206, 92, 92);
-        width: 280px;
-        height: 450px;
-        margin-left: 2px;
-        margin-bottom: 100px;
+        width: 310px;
+        height: 550px;
+        margin-left: 38px;
+        margin-top: 100px;
         border-radius: 15px;
         box-shadow:0px 0px 60px #e64747 ;
         position: relative;
@@ -232,12 +236,46 @@ h3{
     }
     #resultCard{
         background-color: rgb(58, 35, 151);
-        width: 280px;
-        height: 370px;
+        width: 350px;
+        height: 570px;
         margin-left: 10px;
         margin-top: 80px;
         border-radius: 15px;
         box-shadow:0px 0px 60px #47e647 ;
     }
-    
+    .nav-bar{
+        width:350px;
+    }
+    #main-div{
+        width: 380px;
+    }
+    #root{
+        width: 380px;
+    }
+    #Restart-btn{
+        position: relative;
+        margin-top: 210px;
+        margin-left: 80px;
+        width: 200px;
+    }
+    #HF{
+        position: relative;
+        top: 35px;
+        left: 10px;
+        color: rgb(123, 123, 129);
+    }
+    .report{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 90px;
+        /* border: 3px dashed rgb(23, 75, 144); */
+        font-size:xx-large;
+        font-weight: 700;
+        width: 40vw;
+        height: 17vh;
+        color: #47e647;
+        
+    }
 }
